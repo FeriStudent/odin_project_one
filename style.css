@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+    min-height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left : 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 0 15% 0 15%;
+}
+
+.header * {
+    color: #E5E7EB;
+}
+
+.header-left {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/*^header */
+
+
+
+/* let me see borders */
+body * {
+   // border: 2px solid red;
+}
