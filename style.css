@@ -18,34 +18,84 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(246, 246, 246);
 }
 
-.header {
+.header, .under-header-container {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+}
+
+.header {
     padding: 0 15% 0 15%;
 }
 
-.header * {
+.header, .under-header-container * {
     color: #E5E7EB;
 }
 
+.header-left, .under-left {
+    display: flex;  
+}
+
 .header-left {
+    font-size: 24px;
+    font-weight: 900;
     margin-right: auto;
-    display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 18px;
-    font-weight: 900;
 }
 
 /*^header */
 
-
-
-/* let me see borders */
-body * {
-   // border: 2px solid red;
+.under-header-container{
+    height: 200px;
+    padding: 7% 15% 7% 15%;
+    gap: 30px;
 }
+
+.under-left {
+    padding: 0;
+    margin: 0;
+   
+    flex-direction: column;
+    flex: 1;
+
+    align-items: flex-start;
+    /*remember column switches align and justify axis*/
+}
+
+.under-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex: 1;
+    background-color: #8d8d8d;
+}
+
+.under-left .title {
+    font-size: 48px;
+    font-weight: 900;
+ 
+    padding: 0;
+    margin: 0;
+}
+
+.under-left button {
+    background-color: #3882F6;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+
+
+/* let me see borders 
+body * {
+    border: 1px solid rgb(225, 165, 165);
+}*/
