@@ -53,6 +53,7 @@ a {
     height: 200px;
     padding: 7% 15% 7% 15%;
     gap: 30px;
+   
 }
 
 .under-left {
@@ -64,6 +65,8 @@ a {
 
     align-items: flex-start;
     /*remember column switches align and justify axis*/
+    
+    
 }
 
 .under-right {
@@ -81,6 +84,8 @@ a {
  
     padding: 0;
     margin: 0;
+
+    min-width: 350px;
 }
 
 .under-left button {
@@ -90,6 +95,51 @@ a {
     border-radius: 8px;
     font-weight: 900;
     font-size: 18px;
+}
+
+/*mid part*/
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    padding: 5% 10% 5% 10%;
+    gap: 30px;
+}
+
+.mid-container .mid-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.mid-images-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+}
+
+.placeholder-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    
+}
+
+.mid-text {
+    font-size: 10px;
+    text-align: center;
 }
 
 
